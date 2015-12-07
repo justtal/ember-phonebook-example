@@ -1,0 +1,33 @@
+<form {{action "saveContact" on="submit"}}>
+
+  <div class="row">
+    <div class="six columns">
+      <label for="firstname">First Name</label>
+
+      {{input id="firstname" class="u-full-width" value=firstname placeholder="John" required="true"}}
+
+    </div>
+    <div class="six columns">
+      <label for="lastname">Last Name</label>
+
+      {{input id="lastname" class="u-full-width" value=lastname placeholder="Doe" required="true"}}
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="six columns">
+      <label for="email">Email</label>
+
+      {{input id="email" class="u-full-width" value=email placeholder="john@doe.com" required="true" type="email"}}
+
+    </div>
+    <div class="six columns">
+      <label for="phone">Phone</label>
+
+      {{input id="phone" class="u-full-width" value=phone placeholder="052-1234567" required="true"}}
+
+    </div>
+  </div>
+  <input class="button-primary" type="submit" value="Create">
+
+</form>

@@ -1,0 +1,22 @@
+<table class="u-full-width">
+  <thead>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+
+
+  	{{#each contacts as |contact|}}
+			<tr>
+	      <td>{{contact.firstname}}</td>
+	      <td>{{contact.lastname}}</td>
+	      <td>{{#link-to 'contacts.contact' contact}}Show{{/link-to}}</td>
+	    </tr>
+		{{/each}}
+
+
+  </tbody>
+</table>

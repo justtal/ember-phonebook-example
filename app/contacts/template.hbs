@@ -1,0 +1,9 @@
+<div id="phone-book">
+	<h1>Phone Book</h1>
+
+	{{#link-to 'contacts.create'}}<input class="button-primary add-new" type="submit" value="Add New">{{/link-to}}
+
+	{{contact-list contacts=model}}
+
+	{{outlet}}
+</div>

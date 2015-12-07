@@ -1,0 +1,20 @@
+.contact-details {
+  overflow: hidden;
+}
+
+.contact-details .name {
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.contact-details dl dt {
+  width: 100px;
+  font-weight: bold;
+  clear: both;
+  float: left;
+}
+
+.contact-details dl dd {
+  float: left;
+}
